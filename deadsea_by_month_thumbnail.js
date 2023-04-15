@@ -56,7 +56,7 @@ function generate_chart(byMonth, geometry, target) {
 function generate_thumbnails(byMonth, geometry) {
 
   var args = {
-    crs: 'EPSG:4326',
+    //crs: 'EPSG:4326',
     dimensions: '500',
     region: geometry,
     framesPerSecond: 1
